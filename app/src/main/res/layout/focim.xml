@@ -5,21 +5,39 @@
     android:orientation="vertical"
     android:background="#00ff6c"
     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:fontFamily="serif-monospace"
+        android:text="FOCIM"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:textStyle="bold" />
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        >
+
         <RadioButton
             android:id="@+id/rbdip"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:ems="12"
             android:text="Diploma"
             android:textColor="#000"
             android:background="#ddd"
             />
+
         <RadioButton
             android:id="@+id/rbbach"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:ems="12"
+            android:layout_marginTop="20sp"
             android:text="Bachelor"
             android:textColor="#000"
             android:background="#ddd"

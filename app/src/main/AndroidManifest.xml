@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".depActivity" />
+        <activity android:name=".sobActivity" />
+        <activity android:name=".foedActivity" />
+        <activity android:name=".focimActivity" />
+        <activity android:name=".sspActivity"></activity>
     </application>
 
 </manifest>

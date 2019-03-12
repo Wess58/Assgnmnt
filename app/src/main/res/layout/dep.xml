@@ -4,39 +4,79 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#00ff6c">
+
     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="DEPARTMENT"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Department"
-        android:textColor="#000"
-        android:background="#ddd"
-        />
-    <Button
-        android:id="@+id/btnfocim"
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:text="FOCIM"
-        android:textColor="#000"
-        android:background="#ddd"
-        android:layout_margin="50sp"
-        />
-    <Button
-        android:id="@+id/btnsob"
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:text="SOB"
-        android:textColor="#000"
-        android:background="#ddd"
-        android:layout_margin="50dp"
-        />
-    <Button
-        android:id="@+id/btnspp"
-        android:layout_width="50sp"
-        android:layout_height="50sp"
-        android:text="SPP"
-        android:textColor="#000"
-        android:background="#ddd"
-        android:layout_margin="50dp"/>
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <Button
+            android:id="@+id/btnfocim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5sp"
+            android:elevation="5sp"
+            android:text="FOCIM"
+            android:textColor="#000"
+            android:background="#ddd"
+            android:layout_marginTop="20sp"
+            />
+        <Button
+            android:id="@+id/btnsob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="1"
+            android:text="SOB"
+            android:textColor="#000"
+            android:background="#ddd"
+            android:layout_marginTop="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/btnspp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5sp"
+            android:text="SPP"
+            android:textColor="#000"
+            android:background="#ddd"
+            android:layout_marginTop="20sp"/>
+
+        <Button
+            android:id="@+id/btnfoed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5sp"
+            android:text="FOED"
+            android:textColor="#000"
+            android:background="#ddd"
+            android:layout_marginTop="20sp"/>
+
+    </LinearLayout>
 
 
 </LinearLayout>
