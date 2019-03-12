@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00ff6c">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:textColor="#000"
+        android:background="#ddd"
+        />
+    <Button
+        android:id="@+id/btnfocim"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text="FOCIM"
+        android:textColor="#000"
+        android:background="#ddd"
+        android:layout_margin="50sp"
+        />
+    <Button
+        android:id="@+id/btnsob"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text="SOB"
+        android:textColor="#000"
+        android:background="#ddd"
+        android:layout_margin="50dp"
+        />
+    <Button
+        android:id="@+id/btnspp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:text="SPP"
+        android:textColor="#000"
+        android:background="#ddd"
+        android:layout_margin="50dp"/>
+
+
+</LinearLayout>
