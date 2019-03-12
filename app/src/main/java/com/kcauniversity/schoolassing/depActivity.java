@@ -18,7 +18,13 @@ public class depActivity extends AppCompatActivity implements View.OnClickListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.dep);
         ButterKnife.bind(this);
+
+        mBtnfocim.setOnClickListener(this);
+        mBtnsob.setOnClickListener(this);
+        mBtnspp.setOnClickListener(this);
+        mBtnfoed.setOnClickListener(this);
 
     }
 

@@ -20,7 +20,8 @@
         <activity android:name=".sobActivity" />
         <activity android:name=".foedActivity" />
         <activity android:name=".focimActivity" />
-        <activity android:name=".sspActivity"></activity>
+        <activity android:name=".sspActivity" />
+        <activity android:name=".BachelorsActivity"></activity>
     </application>
 
 </manifest>

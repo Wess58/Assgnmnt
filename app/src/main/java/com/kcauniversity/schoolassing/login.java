@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -29,6 +30,7 @@ public class login extends AppCompatActivity implements View.OnClickListener {
     if (v == mLogin){
         Intent intent = new Intent(login.this, depActivity.class );
         startActivity(intent);
+        Toast.makeText(login.this, "LOGGED IN", Toast.LENGTH_SHORT).show();
     }
     }
 }
